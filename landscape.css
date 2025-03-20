@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('background-image.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 58%;
+    color: white;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: pink;
+    font-family: "Bree Serif", serif;
+}
+
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    gap: 30px;
+    padding: 20px;
+}
+    
+
+section{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+#quote{
+    font-size: 3em;
+    font-weight: 700;
+    font-style: bold;
+}
+
+#reload{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#quote-author{
+    font-size: 1.5em;
+}
+
+@media only screen and (max-device-width: 600px) {
+
+    /* STYLES HERE */
+    #quote{
+        font-size: 2em;
+        font-weight: 700;
+        font-style: bold;
+    }
+    
+    #reload{
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    
+}
